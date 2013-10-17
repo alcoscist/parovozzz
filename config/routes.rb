@@ -1,4 +1,12 @@
 Parovozzz::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/afisha"
+
+  get "static_pages/music"
+
+  get "static_pages/video"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
