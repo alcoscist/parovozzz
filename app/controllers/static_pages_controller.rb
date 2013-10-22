@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def video
   end
+	
+	def news
+	end
 end
