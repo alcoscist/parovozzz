@@ -1,13 +1,9 @@
 Parovozzz::Application.routes.draw do
-  get "static_pages/home"
-
-  get "static_pages/afisha"
-
-  get "static_pages/music"
-
-  get "static_pages/video"
-	
-	get "static_pages/news"
+  root to: 'static_pages#home'
+	match '/afisha', to: 'static_pages#afisha'
+  match '/music', to: 'static_pages#music'
+  match '/video', to: 'static_pages#video'	
+	match '/news', to: 'static_pages#news'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
