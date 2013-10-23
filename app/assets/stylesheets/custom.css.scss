@@ -7,7 +7,7 @@ html {
 
 body {
 	padding-top: 60px;
-	background: url('http://ic.pics.livejournal.com/yureczasoba/27207375/1465477/1465477_original.jpg') no-repeat;
+	background: url('http://ic.pics.livejournal.com/yureczasoba/27207375/1465477/1465477_original.jpg') no-repeat fixed;
 }
 
 section {
@@ -82,10 +82,10 @@ p.news {
 /* footer */
 
 footer {
-	margin-top: 45px;
+	margin-top: 45px fixed;
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
-	color: #999
+	color: #999;
 }
 
 footer p {
