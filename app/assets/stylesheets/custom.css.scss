@@ -16,6 +16,7 @@ section {
 
 textarea {
   resize: vertical;
+	
 }
 
 .center {
@@ -50,6 +51,13 @@ h2 {
 p {
 	font-size: 1.1em;
 	line-height: 1.7em;
+}
+
+p.news {
+	font-size: 1.1em;
+	line-height: 1.7em;
+	background-color: olive;
+	border: 4px outset green;
 }
 
 /* header */
