@@ -1,6 +1,6 @@
 Parovozzz::Application.routes.draw do
   root to: 'static_pages#home'
-	match '/afisha', to: 'static_pages#afisha'
+	match '/about', to: 'static_pages#about'
   match '/music', to: 'static_pages#music'
   match '/video', to: 'static_pages#video'	
 	match '/news', to: 'static_pages#news'
